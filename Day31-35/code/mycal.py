@@ -24,7 +24,7 @@ def main():
         'January', 'February', 'March', 'April', 'May', 'June',
         'July', 'August', 'September', 'October', 'November', 'December'
     ]
-    print(f'{month_words[month - 1]} {year}'.center(20))
+    print('{month_words[month - 1]} {year}'.center(20))
     print('Su Mo Tu We Th Fr Sa')
     print(' ' * 3 * w, end='')
     days = [

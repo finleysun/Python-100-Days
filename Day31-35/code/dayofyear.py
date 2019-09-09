@@ -13,7 +13,7 @@ def main():
     for m in range(1, month):
         total += mycal.get_days(year, m)
     total += day
-    print(f'{year}年{month}月{day}日是{year}年的第{total}天')
+    print('{year}年{month}月{day}日是{year}年的第{total}天')
 
 
 if __name__ == '__main__':
